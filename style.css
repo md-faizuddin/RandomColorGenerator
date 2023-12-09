@@ -1,0 +1,26 @@
+
+.container{
+    text-align: center;
+}
+.colorBox{
+    width: 40%;
+    height: 200px;
+    border: 1px black solid;
+    margin: auto;
+}
+.container > button{
+    margin-bottom: 1rem;
+}
+#list{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+#list > li{
+    margin: 10px;
+}
+.previewDiv{
+    display: inline-block;
+    width: 25px;
+    height: 12px;
+}
